@@ -4,11 +4,11 @@ const app = express();
 const path = require("path");
 const sendmail = require("./mail");
 const PORT = 8080;
-const routes = require("./routes/index");
-const v = require("./routes/virtual");
-const c = require("./routes/contact")
-const a=require("./routes/about")
-const iO = require("./routes/in")
+const routes = require("./index");
+const v = require("./virtual");
+const c = require("./contact")
+const a=require("./about")
+const iO = require("./in")
 app.set("view engine", "ejs")
 log('loaded');
 

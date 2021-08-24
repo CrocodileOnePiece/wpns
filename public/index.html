@@ -9,7 +9,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link href="../public/assets/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&amp;family=Libre+Baskerville&amp;display=swap"
       rel="stylesheet"
@@ -64,7 +64,19 @@
 
   <body>
     <header>
-      <%- include('templates/header.ejs') -%>
+      <div class="navv">
+        <img class= "title img-fluid"  src="./LogoMakr_5iAESO.png">
+      
+    <nav>
+        <ul>
+        <li><a href="./virtual.html">Virtual Visits</a></li>
+        <li><a href="./In-Office.html">In-Office Visits</a></li>
+        <li><a href="./About.html">About Us</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./index.html">Home</a></li>
+       </ul>
+     </nav>
+    </div>
     </header>
 
     <main id="main">
@@ -125,7 +137,7 @@
               <div class="col-sm-4">
                 <a href="" class="card border pocket mb-3" id="a">
                   <img
-                    src="../public/assets/rehabilitation.jpg"
+                    src="./rehabilitation.jpg"
                     alt=""
                     class="img-fluid p-0"
                   />
@@ -136,7 +148,7 @@
                       
                     </h5>
                     <p>
-                      We provide Physican and Nurse Practioner coverage too skilled Nursing, Facilities and Nursing homes
+                      We provide Physician and Nurse Practitioner coverage to Skilled Nursing facilities and Nursing homes
                     </p>
                   </div>
                 </a>
@@ -165,12 +177,12 @@
               <div class="col-sm-4">
                 <a href="" class="card border pocket mb-3" id="c">
                   <img
-                    src="../public/assets/XXV6DBWSMVEI3BJSWWELYUSSCM.jpg"
+                    src="./XXV6DBWSMVEI3BJSWWELYUSSCM.jpg"
                     alt=""
                     class="img-fluid p-0"
                   />
                   <div class="card-body">
-                    <h5 class="hope">Assisated Living facility Coverage</h5>
+                    <h5 class="hope">Assisted Living Facility Coverage</h5>
                     <p>
                       Our providers make house calls to provide primary care to assited living residents
                     </p>
@@ -202,8 +214,8 @@
                   <div class="row media1">
                     <div class="col-md-12 media2">
                       <h2 id="fix">Providers</h2>
-                      <p>Schedule an appoointment with any of our providers. Each responsible for giving and</p>
-                      <p>Together the staff of Worcester Physicans and Nursing Services<br> Form a dedicated and  effective partnership </p>
+                      <p>Schedule an appointment with any of our providers.<br> We are responsible for providing the best and most efficient care and services for our patients</p>
+                      <p>Together the staff of Worcester Physicians and Nurses Services form a dedicated and effective partnership </p>
                     </div>
                   </div>
                 </div>
@@ -215,81 +227,57 @@
               <!--START OF POCKETS-->
               <div class="container-fluid indivduals">
                 <div class="row text-center">
-                  <!--POCKET 1-->
-                  <div class="col-sm-4 media3">
-                    <h3>Physicans</h3>
+
+
+                  <div class="col-sm-4 providers text-center">
+                  <div>
+                    <h3>Physician</h3>
                     <br />
                     <figure>
                       <img
-                        src="../public/assets/20181119-121944.JPG"
+                        src="./20181119-121944.JPG"
+                        class="img-duo img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                      /><br />
+                        <figcaption>  Chidimma Okoli MD<br />CEO/Owner</figcaption>
+                      </figure>
+                    </div>    
+                      </div>
+
+                  <!--POCKET 2-->
+                  <div class="col-sm-4 providers text-center">
+                    
+                  <div>
+                    <h3>Nurse Practitioner</h3>
+                    <br />
+                    <figure>
+                      <img
+                        src="./MOLLY (1).jpeg"
                         class="imgPro img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
                         alt=""
                       />
                       <br />
-                      <figcaption class="">
-                        Dr.Chidimma Okoli MD:<br />Ceo/Owner of WPNS
-                      </figcaption>
+                      <figcaption class="">Margaret Traynham,<br />NP</figcaption>
+                      
                     </figure>
                   </div>
-
-                  <!--POCKET 2-->
-                  <div class="col-sm-4 providers text-center">
-                    <h3>Nurse Practioners</h3>
-                    <br />
-                    <figure>
-                      <img
-                        src="../public/assets/IMG-4358.JPG"
-                        class="img-duo img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-                      />
-                      <br />
-                      <figcaption class="">Julie Tucker,<br />FMNP</figcaption>
-                      </figure>
-                    <br />
-                    <figure>
-                      <img src="../public/assets/image0.jpeg" class="img-duo img-new2 img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" />
-                      <br />
-                      <figcaption class="img-new2">
-                        Carissa Kelly, N.P.
-                      </figcaption>
-                    </figure>
                   </div>
-
                   <!--POCKET 3-->
-                  <div class="col-sm-4 providers">
-                    <h3>Office Manager</h3>
-                    <br />
-                    <figure>
-                      <img
-                        src="../public/assets/LYNN.JPG"
-                        class="img-duo img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"/>
-                      <br />
-                      <figcaption class="">
-                        LYNN Gervais:<br />Medical assistent / Office
-                        Coordinator
-                      </figcaption>
-                    </figure>
-                    <figure>
-                      <img src="../public/assets/MOLLY (1).jpeg" 
-                      class="img-duo img-fluid 
-                      ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"/>
-                      <br>
-                      <figcaption>
-                        MOllY
-                      </figcaption>
-                    </figure>
-                  </div>
-
-                  <div class="col-sm-4 img-new  providers">
-                      <h3>Registred Nurse</h3>
+                          
+                    <div class="col-sm-4 providers">
+                      <h3>Nurse</h3>
                       <br>
                       <figure>
-                        <img src="../public/assets/IMG-0101.jpg" class="img-duo img-fluid  ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"/>
+                        <img src="./IMG-0101.jpg" class="img-duo img-fluid  ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"/>
                         <br>
                         <figcaption>
                           Louise Nyepon-Earley, .<br />R.N
                         </figcaption>
                       </figure>
+                    </div>
+
                   </div>
+                  </div>
+                
                 </div>
               </div>
 
@@ -310,11 +298,11 @@
         <div class="row text-center">
           <!-- LOGO PART WITH INFO,Number, email, location-->
           <div class="col-md-4">
-            <img src="../public/assets/LogoMakr_5iAESO.png" class="img-fluid" />
+            <img src="./LogoMakr_5iAESO.png" class="img-fluid" />
             <hr class="light" />
             <p>508-556-1072</p>
-            <p>email@myemail.com</p>
-            <p>111-Elm St</p>
+            <p>wpnsmail@wpnservices.org</p>
+            <p>111 Elm St, suite 201</p>
             <p>Worcester, Massachuttests, 01609</p>
           </div>
           <!--Navigation part of the Footer-->
@@ -323,11 +311,11 @@
             <hr class="light" />
             <h5>Explore WPNS</h5>
             <hr class="light" />
-            <p><a href="Virtual">Virtual Visits</a></p>
-            <p><a href="In-Office">In-Office Visits</a></p>
-            <p><a href="About">About Us</a></p>
-            <p><a href="contact">Contact</a></p>
-            <p><a href="index">Home</a></p>
+            <p><a href="./virtual.html">Virtual Visits</a></p>
+            <p><a href="./In-Office.html">In-Office Visits</a></p>
+            <p><a href="./About.html">About Us</a></p>
+            <p><a href="./contact.html">Contact</a></p>
+            <p><a href="./index.html">Home</a></p>
           </div>
 
           <div class="col-md-4">
@@ -335,12 +323,12 @@
             <h5>Patient Resources</h5>
             <hr class="light" />
             <p><a href="">Request Medical Records</a></p>
-            <p><a href="">In-Office Visits</a></p>
-            <p><a href="">About Us</a></p>
+            <p><a href="./In-Office.html">In-Office Visits</a></p>
+            <p><a href="./About.html">About Us</a></p>
           </div>
           <div class="col-12">
             <hr class="light" />
-            <h6>&copy; 2020 WPNServices</h6>
+            <h6>&copy; 2020 WPNServices;  Website Created by Kenechukwu K. Okoli </h6>
             <span
               ><a class="footer-anchor-style" href=""
                 >Terms &amp; Conditions</a
@@ -355,7 +343,7 @@
       </div>
     </footer>
 
-    <script src="../public/assets/main.js"></script>
+    <script src="./main.js"></script>
     <!-- JS, Popper.js, and jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

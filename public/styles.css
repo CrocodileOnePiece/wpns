@@ -164,7 +164,14 @@ nav a:hover::before{
     align-items: center;
     border-radius: 50%;
 }
-
+.top {
+  margin-top: 80px;
+}
+#up{
+    margin-bottom: 300px;
+    position: relative;
+    top: 40px;
+}
 .img-new{
     position: relative;
     bottom: 19.3rem;
